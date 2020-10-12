@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../Button/Button';
 
 const NavBar = () => {
   const [isClicked, setIsClicked] = React.useState(false);
+  const [isButton, setIsButton] = React.useState(true);
 
   const handleOnClickHamburger = () => {
     setIsClicked(!isClicked);
@@ -44,6 +46,7 @@ const NavBar = () => {
               </Link>
             </li>
           </ul>
+          {isButton && <Button buttonStyle={'btn_outline'}>SIGN UP</Button>}
         </div>
       </nav>
     </React.Fragment>

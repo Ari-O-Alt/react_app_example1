@@ -23,6 +23,10 @@ const NavBar = () => {
     }
   };
 
+  React.useEffect(() => {
+    showButton();
+  }, []);
+
   window.addEventListener('resize', showButton);
   return (
     <React.Fragment>

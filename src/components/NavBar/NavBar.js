@@ -14,6 +14,15 @@ const NavBar = () => {
     setIsClicked(false);
   };
 
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setIsButton(false);
+    } else {
+      setIsButton(true);
+    }
+  };
+
+  window.addEventListener('resize', showButton);
   return (
     <React.Fragment>
       <nav className='navbar'>

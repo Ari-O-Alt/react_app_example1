@@ -32,7 +32,7 @@ const NavBar = () => {
     <React.Fragment>
       <nav className='navbar'>
         <div className='navBarContainer'>
-          <Link to='/' className='navbarLogo'>
+          <Link to='/' className='navbarLogo' onClick={closeMobileMenu}>
             SLV <i className='fab fa-typo3'></i>
           </Link>
           <div className='menuIcon' onClick={handleOnClickHamburger}>
@@ -45,12 +45,12 @@ const NavBar = () => {
               </Link>
             </li>
             <li className='navItem'>
-              <Link to='/services' className='navLinks'>
+              <Link to='/services' className='navLinks' onClick={closeMobileMenu}>
                 Services
               </Link>
             </li>
             <li className='navItem'>
-              <Link to='/portfolio' className='navLinks'>
+              <Link to='/portfolio' className='navLinks' onClick={closeMobileMenu}>
                 Portfolio
               </Link>
             </li>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
+import './NavBar.css';
 
 const NavBar = () => {
   const [isClicked, setIsClicked] = React.useState(false);
@@ -50,7 +51,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li className='navItem'>
-              <Link to='/sign_up' className='navLinks-mobile'>
+              <Link to='/sign_up' className='navLinksMobile'>
                 Sign Up
               </Link>
             </li>

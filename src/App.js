@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <React.Fragment>
@@ -14,6 +14,6 @@ function App() {
       </React.Fragment>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

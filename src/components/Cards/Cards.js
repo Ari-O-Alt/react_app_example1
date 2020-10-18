@@ -9,7 +9,14 @@ function Cards() {
       <div className='cardsContainer'>
         <div className='cardsWrapper'>
           <ul className='allCards'>
-            <SingleCard />
+            <SingleCard src={'/images/img-1.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
+            <SingleCard src={'/images/img-2.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
+            <SingleCard src={'/images/img-3.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
+            <SingleCard src={'/images/img-4.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
+            <SingleCard src={'/images/img-5.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
+            <SingleCard src={'/images/img-6.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
+            <SingleCard src={'/images/img-7.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
+            <SingleCard src={'/images/img-8.jpg'} text={'Explore the hidden waterfall'} label={'Adventure'} path='/services' />
           </ul>
         </div>
       </div>

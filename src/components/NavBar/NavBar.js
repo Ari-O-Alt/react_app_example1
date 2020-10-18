@@ -50,8 +50,8 @@ const NavBar = () => {
               </Link>
             </li>
             <li className='navItem'>
-              <Link to='/portfolio' className='navLinks' onClick={closeMobileMenu}>
-                Portfolio
+              <Link to='/products' className='navLinks' onClick={closeMobileMenu}>
+                Products
               </Link>
             </li>
             <li className='navItem'>

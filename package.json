@@ -2,7 +2,7 @@
   "name": "website1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Cilvako/react_app_example1",
+  "homepage": "https://cilvako.github.io/react_app_example1/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

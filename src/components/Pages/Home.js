@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Cards from '../Cards/Cards';
+import Footer from '../Footer/Footer';
 import VideoSection from '../VideoSection/VideoSection';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <VideoSection />
       <Cards />
+      <Footer />
     </div>
   );
 };
